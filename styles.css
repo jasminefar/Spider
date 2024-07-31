@@ -1,0 +1,122 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.spider-web {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle at center, transparent 50%, #333 50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spider {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body {
+    position: relative;
+}
+
+.head, .thorax, .abdomen {
+    background-color: #444;
+    border-radius: 50%;
+}
+
+.head {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.thorax {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.abdomen {
+    width: 60px;
+    height: 60px;
+}
+
+.legs {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.leg {
+    width: 5px;
+    height: 50px;
+    background-color: #555;
+    position: absolute;
+    transform-origin: top;
+    transform: rotate(45deg);
+}
+
+.leg1 {
+    top: 0;
+    left: -60px;
+    transform: rotate(-30deg);
+}
+
+.leg2 {
+    top: 10px;
+    left: -40px;
+    transform: rotate(-15deg);
+}
+
+.leg3 {
+    top: 20px;
+    left: -20px;
+    transform: rotate(0deg);
+}
+
+.leg4 {
+    top: 30px;
+    left: 0;
+    transform: rotate(15deg);
+}
+
+.leg5 {
+    top: 30px;
+    left: 20px;
+    transform: rotate(15deg);
+}
+
+.leg6 {
+    top: 20px;
+    left: 40px;
+    transform: rotate(0deg);
+}
+
+.leg7 {
+    top: 10px;
+    left: 60px;
+    transform: rotate(-15deg);
+}
+
+.leg8 {
+    top: 0;
+    left: 80px;
+    transform: rotate(-30deg);
+}
